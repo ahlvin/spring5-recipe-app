@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be2d7e58-ee31-46ee-ba6e-8ea0a572e6d8" name="Default Changelist" comment="" />
+    <list default="true" id="be2d7e58-ee31-46ee-ba6e-8ea0a572e6d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Notes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +17,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,6 +34,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1mGLKlRaxRv3n2VcAZ8zQ2D3Pek" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,12 +45,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="guru.springframework" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="guru.springframework.domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\temp folder\spring5-recipe-app\spring5-recipe-app\src\main\resources\static" />
@@ -88,6 +106,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="313" y="30" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1609651780879">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="313" y="30" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609651780879" />
+    <state x="531" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1609716906771">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="531" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609716906771" />
     <state x="583" y="299" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1609114964216">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
