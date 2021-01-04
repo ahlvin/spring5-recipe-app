@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be2d7e58-ee31-46ee-ba6e-8ea0a572e6d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Difficulty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Notes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Recipe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -108,10 +109,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="313" y="30" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609651780879" />
-    <state x="531" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1609717946034">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="4504" y="31" key="#com.intellij.ide.util.MemberChooser" timestamp="1609722375383">
+      <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="531" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609717946034" />
+    <state x="531" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609720327068" />
+    <state x="4504" y="31" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722375382" />
     <state x="583" y="299" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1609114964216">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -124,22 +126,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="500" y="115" key="FileChooserDialogImpl/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609123433284" />
-    <state width="1481" height="217" key="GridCell.Tab.0.bottom" timestamp="1609123436225">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1866" height="547" key="GridCell.Tab.0.bottom" timestamp="1609722381000">
+      <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1481" height="217" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609123436225" />
-    <state width="1481" height="217" key="GridCell.Tab.0.center" timestamp="1609123436225">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1481" height="217" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609720357467" />
+    <state width="1866" height="547" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
+    <state width="1866" height="547" key="GridCell.Tab.0.center" timestamp="1609722381000">
+      <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1481" height="217" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609123436225" />
-    <state width="1481" height="217" key="GridCell.Tab.0.left" timestamp="1609123436224">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1481" height="217" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609720357467" />
+    <state width="1866" height="547" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
+    <state width="1866" height="547" key="GridCell.Tab.0.left" timestamp="1609722381000">
+      <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1481" height="217" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609123436224" />
-    <state width="1481" height="217" key="GridCell.Tab.0.right" timestamp="1609123436225">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1481" height="217" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609720357467" />
+    <state width="1866" height="547" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
+    <state width="1866" height="547" key="GridCell.Tab.0.right" timestamp="1609722381000">
+      <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state width="1481" height="217" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609123436225" />
+    <state width="1481" height="217" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609720357467" />
+    <state width="1866" height="547" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
     <state x="256" y="4" key="Registry" timestamp="1609121804399">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -152,9 +158,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="377" y="199" key="com.intellij.ide.util.TipDialog/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609122200916" />
-    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1609121757333">
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1609718628200">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609121757333" />
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609718628200" />
   </component>
 </project>
