@@ -10,11 +10,8 @@ public class UnitOfMeasure {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
-
     private String description;
 
-    @OneToOne
-    private Ingredient ingredient;
 
     public String getId() {
         return id;
@@ -32,11 +29,4 @@ public class UnitOfMeasure {
         this.description = description;
     }
 
-    public Ingredient getIngredient() {
-        return ingredient;
-    }
-
-    public void setIngredient(Ingredient ingredient) {
-        this.ingredient = ingredient;
-    }
 }
