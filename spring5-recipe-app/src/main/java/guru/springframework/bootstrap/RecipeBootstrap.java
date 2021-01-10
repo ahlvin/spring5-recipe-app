@@ -1,5 +1,4 @@
 package guru.springframework.bootstrap;
-
 import guru.springframework.domain.*;
 import guru.springframework.repositories.CategoryRepository;
 import guru.springframework.repositories.RecipeRepository;
@@ -7,7 +6,6 @@ import guru.springframework.repositories.UnitOfMeasureRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
 import java.math.BigDecimal;
 import java.util.*;
 

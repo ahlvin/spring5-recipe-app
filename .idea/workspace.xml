@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be2d7e58-ee31-46ee-ba6e-8ea0a572e6d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/services/RecipeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/services/RecipeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/repositories/RecipeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/repositories/RecipeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/controllers/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,6 @@
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showExcludedFiles" value="true" />
-    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -50,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -113,10 +112,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="313" y="30" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609651780879" />
-    <state x="4504" y="31" key="#com.intellij.ide.util.MemberChooser" timestamp="1610255456362">
-      <screen x="3840" y="0" width="1920" height="1050" />
+    <state x="531" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1610296589693">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="531" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609816427998" />
+    <state x="531" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610296589693" />
     <state x="4504" y="31" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1610255456362" />
     <state x="583" y="299" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1609114964216">
       <screen x="0" y="0" width="1536" height="834" />
@@ -134,34 +133,34 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="500" y="115" key="FileChooserDialogImpl/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609123433284" />
-    <state width="1481" height="198" key="GridCell.Tab.0.bottom" timestamp="1609729236775">
+    <state width="1481" height="366" key="GridCell.Tab.0.bottom" timestamp="1610311935298">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1481" height="198" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609729236775" />
+    <state width="1481" height="366" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610311935298" />
     <state width="1866" height="547" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
-    <state width="1481" height="198" key="GridCell.Tab.0.center" timestamp="1609729236775">
+    <state width="1481" height="366" key="GridCell.Tab.0.center" timestamp="1610311935298">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1481" height="198" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609729236775" />
+    <state width="1481" height="366" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610311935298" />
     <state width="1866" height="547" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
-    <state width="1481" height="198" key="GridCell.Tab.0.left" timestamp="1609729236775">
+    <state width="1481" height="366" key="GridCell.Tab.0.left" timestamp="1610311935298">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1481" height="198" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609729236775" />
+    <state width="1481" height="366" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610311935298" />
     <state width="1866" height="547" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
-    <state width="1481" height="198" key="GridCell.Tab.0.right" timestamp="1609729236775">
+    <state width="1481" height="366" key="GridCell.Tab.0.right" timestamp="1610311935298">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1481" height="198" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609729236775" />
+    <state width="1481" height="366" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610311935298" />
     <state width="1866" height="547" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
     <state x="256" y="4" key="Registry" timestamp="1609121804399">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="256" y="4" key="Registry/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609121804399" />
-    <state x="148" y="0" key="SettingsEditor" timestamp="1609122544412">
+    <state x="148" y="0" key="SettingsEditor" timestamp="1610296093914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="148" y="0" key="SettingsEditor/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609122544412" />
+    <state x="148" y="0" key="SettingsEditor/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610296093914" />
     <state x="4311" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1610219327551">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
