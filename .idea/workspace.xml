@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="be2d7e58-ee31-46ee-ba6e-8ea0a572e6d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/services/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/services/RecipeServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,28 +32,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1mGLKlRaxRv3n2VcAZ8zQ2D3Pek" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
-    <option name="showExcludedFiles" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -60,7 +61,7 @@
       <recent name="C:\temp folder\spring5-recipe-app\spring5-recipe-app\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Spring5RecipeAppApplication">
     <configuration name="Spring5RecipeAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guru.springframework.Spring5RecipeAppApplication" />
       <module name="spring5-recipe-app" />
@@ -70,6 +71,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring5RecipeAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring5-recipe-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.Spring5RecipeAppApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,6 +100,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -102,79 +111,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609114919551</updated>
+      <workItem from="1611026899754" duration="1201000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="313" y="30" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1609651780879">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="313" y="30" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609651780879" />
-    <state x="531" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1610296589693">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="531" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610296589693" />
-    <state x="4504" y="31" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1610255456362" />
-    <state x="583" y="299" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1609114964216">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="583" y="299" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609114964216" />
-    <state x="439" y="248" width="698" height="352" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1609116947548">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="439" y="248" width="698" height="352" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609116947548" />
-    <state x="300" y="65" key="DBNavigator.ProjectSettingsDialog" timestamp="1609727220207">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="300" y="65" key="DBNavigator.ProjectSettingsDialog/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609727220207" />
-    <state x="500" y="115" key="FileChooserDialogImpl" timestamp="1609123433284">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="500" y="115" key="FileChooserDialogImpl/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609123433284" />
-    <state width="1481" height="366" key="GridCell.Tab.0.bottom" timestamp="1610383755942">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1481" height="366" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610311935298" />
-    <state width="1866" height="547" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
-    <state width="1481" height="366" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1610383755942" />
-    <state width="1481" height="366" key="GridCell.Tab.0.center" timestamp="1610383755942">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1481" height="366" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610311935298" />
-    <state width="1866" height="547" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
-    <state width="1481" height="366" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1610383755942" />
-    <state width="1481" height="366" key="GridCell.Tab.0.left" timestamp="1610383755941">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1481" height="366" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610311935298" />
-    <state width="1866" height="547" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
-    <state width="1481" height="366" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1610383755941" />
-    <state width="1481" height="366" key="GridCell.Tab.0.right" timestamp="1610383755942">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1481" height="366" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610311935298" />
-    <state width="1866" height="547" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1609722381000" />
-    <state width="1481" height="366" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1610383755942" />
-    <state x="256" y="4" key="Registry" timestamp="1609121804399">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="256" y="4" key="Registry/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609121804399" />
-    <state x="148" y="0" key="SettingsEditor" timestamp="1610296093914">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="148" y="0" key="SettingsEditor/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1610296093914" />
-    <state x="4311" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1610424948559">
-      <screen x="3840" y="0" width="1920" height="1050" />
-    </state>
-    <state x="377" y="199" key="com.intellij.ide.util.TipDialog/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609122200916" />
-    <state x="4311" y="251" key="com.intellij.ide.util.TipDialog/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1610424948559" />
-    <state x="4469" y="222" key="extract.method.dialog" timestamp="1610254976855">
-      <screen x="3840" y="0" width="1920" height="1050" />
-    </state>
-    <state x="4469" y="222" key="extract.method.dialog/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1610254976855" />
-    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1609718628200">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1609718628200" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
