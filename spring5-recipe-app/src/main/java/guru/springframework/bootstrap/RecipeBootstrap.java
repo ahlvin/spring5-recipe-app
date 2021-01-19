@@ -3,6 +3,7 @@ import guru.springframework.domain.*;
 import guru.springframework.repositories.CategoryRepository;
 import guru.springframework.repositories.RecipeRepository;
 import guru.springframework.repositories.UnitOfMeasureRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -12,6 +13,7 @@ import java.util.*;
 /**
  * Created by vineet  on 1/4/2021.
  */
+@Slf4j
 @Component
 public class RecipeBootstrap implements CommandLineRunner {
     private final CategoryRepository categoryRepository;
@@ -29,6 +31,7 @@ public class RecipeBootstrap implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         recipeRepository.saveAll(getRecipes());
+        log.debug("loading bootstrap data");
 
     }
 
