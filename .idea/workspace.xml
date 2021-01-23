@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2d7e58-ee31-46ee-ba6e-8ea0a572e6d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/domain/CategoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/Spring5RecipeAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/Spring5RecipeAppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/bootstrap/RecipeBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/controllers/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/Notes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/UnitOfMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/domain/UnitOfMeasure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +20,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -46,22 +42,30 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="guru.springframework" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="guru.springframework.domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\temp folder\spring5-recipe-app\spring5-recipe-app\src\main\resources\static" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="guru.springframework" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="guru.springframework.domain" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Spring5RecipeAppApplication">
+  <component name="RunManager" selected="JUnit.CategoryTest.getId">
     <configuration name="Spring5RecipeAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guru.springframework.Spring5RecipeAppApplication" />
       <module name="spring5-recipe-app" />
@@ -75,6 +79,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryTest.getId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-recipe-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.domain" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.domain.CategoryTest" />
+      <option name="METHOD_NAME" value="getId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring5RecipeAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring5-recipe-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.Spring5RecipeAppApplication" />
@@ -84,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CategoryTest.getId" />
         <item itemvalue="Application.Spring5RecipeAppApplication" />
       </list>
     </recent_temporary>
@@ -112,6 +144,9 @@
       <option name="presentableId" value="Default" />
       <updated>1609114919551</updated>
       <workItem from="1611026899754" duration="1719000" />
+      <workItem from="1611147850670" duration="1221000" />
+      <workItem from="1611193310092" duration="66000" />
+      <workItem from="1611193399709" duration="2400000" />
     </task>
     <servers />
   </component>
