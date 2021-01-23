@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2d7e58-ee31-46ee-ba6e-8ea0a572e6d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/domain/CategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/services/RecipeServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,10 +62,11 @@
       <recent name="guru.springframework" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="guru.springframework.services" />
       <recent name="guru.springframework.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CategoryTest.getId">
+  <component name="RunManager" selected="JUnit.RecipeServiceImplTest.getRecipe">
     <configuration name="Spring5RecipeAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guru.springframework.Spring5RecipeAppApplication" />
       <module name="spring5-recipe-app" />
@@ -106,6 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecipeServiceImplTest.getRecipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-recipe-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.services" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.services.RecipeServiceImplTest" />
+      <option name="METHOD_NAME" value="getRecipe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring5RecipeAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring5-recipe-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.Spring5RecipeAppApplication" />
@@ -115,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RecipeServiceImplTest.getRecipe" />
         <item itemvalue="JUnit.CategoryTest.getId" />
         <item itemvalue="Application.Spring5RecipeAppApplication" />
       </list>
@@ -146,7 +164,7 @@
       <workItem from="1611026899754" duration="1719000" />
       <workItem from="1611147850670" duration="1221000" />
       <workItem from="1611193310092" duration="66000" />
-      <workItem from="1611193399709" duration="2400000" />
+      <workItem from="1611193399709" duration="5681000" />
     </task>
     <servers />
   </component>
