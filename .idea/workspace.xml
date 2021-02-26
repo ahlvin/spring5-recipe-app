@@ -7,6 +7,8 @@
     <list default="true" id="be2d7e58-ee31-46ee-ba6e-8ea0a572e6d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/controllers/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/controllers/IndexControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/services/RecipeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/services/RecipeServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1mGLKlRaxRv3n2VcAZ8zQ2D3Pek" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,7 +59,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -71,16 +80,16 @@
       <recent name="guru.springframework.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring5RecipeAppApplication">
-    <configuration name="Spring5RecipeAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.Spring5RecipeAppApplication" />
-      <module name="spring5-recipe-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guru.springframework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.IndexControllerTest.testMockMVC">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,6 +126,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IndexControllerTest.testMockMVC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-recipe-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.controllers.IndexControllerTest" />
+      <option name="METHOD_NAME" value="testMockMVC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RecipeServiceImplTest.getRecipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring5-recipe-app" />
       <extension name="coverage">
@@ -133,6 +158,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring5RecipeAppApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-recipe-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.Spring5RecipeAppApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring5RecipeAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring5-recipe-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.Spring5RecipeAppApplication" />
@@ -142,24 +183,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IndexControllerTest.testMockMVC" />
         <item itemvalue="JUnit.IndexControllerTest.getIndexPage" />
+        <item itemvalue="JUnit.Spring5RecipeAppApplicationTests.contextLoads" />
         <item itemvalue="JUnit.RecipeServiceImplTest.getRecipe" />
         <item itemvalue="JUnit.CategoryTest.getId" />
-        <item itemvalue="Application.Spring5RecipeAppApplication" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -179,11 +209,40 @@
       <workItem from="1611624450399" duration="13000" />
       <workItem from="1612585312178" duration="296000" />
       <workItem from="1612585630304" duration="665000" />
-      <workItem from="1612675872891" duration="806000" />
+      <workItem from="1612675872891" duration="3152000" />
+      <workItem from="1613147637382" duration="4625000" />
+      <workItem from="1613260080184" duration="2583000" />
+      <workItem from="1613522113570" duration="599000" />
+      <workItem from="1614302964975" duration="48000" />
+      <workItem from="1614303039432" duration="1940000" />
+      <workItem from="1614305443485" duration="1187000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="307" key="GridCell.Tab.0.bottom" timestamp="1614305675541">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="307" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614305675541" />
+    <state width="1493" height="307" key="GridCell.Tab.0.center" timestamp="1614305675541">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="307" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614305675541" />
+    <state width="1493" height="307" key="GridCell.Tab.0.left" timestamp="1614305675541">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="307" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614305675541" />
+    <state width="1493" height="307" key="GridCell.Tab.0.right" timestamp="1614305675541">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="307" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614305675541" />
+    <state x="4189" y="78" key="SettingsEditor" timestamp="1614306992685">
+      <screen x="3840" y="0" width="1920" height="1050" />
+    </state>
+    <state x="279" y="62" key="SettingsEditor/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614305623322" />
+    <state x="4189" y="78" key="SettingsEditor/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1614306992685" />
   </component>
 </project>
