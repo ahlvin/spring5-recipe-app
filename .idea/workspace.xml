@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2d7e58-ee31-46ee-ba6e-8ea0a572e6d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/repositories/UnitOfMeasureRepositoryIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/controllers/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/controllers/IndexControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/services/RecipeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/services/RecipeServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +19,10 @@
         <option value="HTML File" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
-    <option name="SCHEME" value="Project" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,28 +56,29 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="guru.springframework.repositories" />
+      <recent name="guru.springframework.controllers" />
+      <recent name="guru.springframework.services" />
       <recent name="guru.springframework.domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\temp folder\spring5-recipe-app\spring5-recipe-app\src\main\resources\static" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="guru.springframework" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="guru.springframework.controllers" />
-      <recent name="guru.springframework.services" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="guru.springframework.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IndexControllerTest.testMockMVC">
+  <component name="RunManager" selected="JUnit.UnitOfMeasureRepositoryIT.findByDescription">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -90,22 +88,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CategoryTest.getId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring5-recipe-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guru.springframework.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.domain" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.domain.CategoryTest" />
-      <option name="METHOD_NAME" value="getId" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,22 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecipeServiceImplTest.getRecipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring5-recipe-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guru.springframework.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.services" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.services.RecipeServiceImplTest" />
-      <option name="METHOD_NAME" value="getRecipe" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Spring5RecipeAppApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring5-recipe-app" />
       <extension name="coverage">
@@ -174,6 +140,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnitOfMeasureRepositoryIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-recipe-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.repositories" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.repositories.UnitOfMeasureRepositoryIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitOfMeasureRepositoryIT.findByDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-recipe-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.repositories" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.repositories.UnitOfMeasureRepositoryIT" />
+      <option name="METHOD_NAME" value="findByDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring5RecipeAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring5-recipe-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.Spring5RecipeAppApplication" />
@@ -183,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnitOfMeasureRepositoryIT.findByDescription" />
+        <item itemvalue="JUnit.UnitOfMeasureRepositoryIT" />
         <item itemvalue="JUnit.IndexControllerTest.testMockMVC" />
         <item itemvalue="JUnit.IndexControllerTest.getIndexPage" />
         <item itemvalue="JUnit.Spring5RecipeAppApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.RecipeServiceImplTest.getRecipe" />
-        <item itemvalue="JUnit.CategoryTest.getId" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +212,7 @@
       <workItem from="1613522113570" duration="599000" />
       <workItem from="1614302964975" duration="48000" />
       <workItem from="1614303039432" duration="1940000" />
-      <workItem from="1614305443485" duration="1187000" />
+      <workItem from="1614305443485" duration="4705000" />
     </task>
     <servers />
   </component>
@@ -223,26 +220,34 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="307" key="GridCell.Tab.0.bottom" timestamp="1614305675541">
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1614345458139">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614305675541" />
-    <state width="1493" height="307" key="GridCell.Tab.0.center" timestamp="1614305675541">
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614345458139" />
+    <state width="1493" height="307" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1614307211686" />
+    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1614345458138">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614305675541" />
-    <state width="1493" height="307" key="GridCell.Tab.0.left" timestamp="1614305675541">
+    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614345458138" />
+    <state width="1493" height="307" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1614307211685" />
+    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1614345458138">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614305675541" />
-    <state width="1493" height="307" key="GridCell.Tab.0.right" timestamp="1614305675541">
+    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614345458138" />
+    <state width="1493" height="307" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1614307211685" />
+    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1614345458138">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="307" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614305675541" />
-    <state x="4189" y="78" key="SettingsEditor" timestamp="1614306992685">
-      <screen x="3840" y="0" width="1920" height="1050" />
+    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614345458138" />
+    <state width="1493" height="307" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1614307211685" />
+    <state x="279" y="62" key="SettingsEditor" timestamp="1614344123413">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="279" y="62" key="SettingsEditor/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614305623322" />
+    <state x="279" y="62" key="SettingsEditor/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614344123413" />
     <state x="4189" y="78" key="SettingsEditor/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1614306992685" />
+    <state x="534" y="240" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1614343462043">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="534" y="240" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614343462043" />
   </component>
 </project>
