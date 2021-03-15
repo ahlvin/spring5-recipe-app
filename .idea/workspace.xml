@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2d7e58-ee31-46ee-ba6e-8ea0a572e6d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring5-recipe-app/src/test/java/guru/springframework/repositories/UnitOfMeasureRepositoryIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_3_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_1_11_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +29,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1mGLKlRaxRv3n2VcAZ8zQ2D3Pek" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -78,16 +74,14 @@
       <recent name="guru.springframework.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UnitOfMeasureRepositoryIT.findByDescription">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.Spring5RecipeAppApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,6 +182,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -212,42 +218,14 @@
       <workItem from="1613522113570" duration="599000" />
       <workItem from="1614302964975" duration="48000" />
       <workItem from="1614303039432" duration="1940000" />
-      <workItem from="1614305443485" duration="4705000" />
+      <workItem from="1614305443485" duration="6373000" />
+      <workItem from="1614532560494" duration="174000" />
+      <workItem from="1614532798371" duration="1476000" />
+      <workItem from="1615770816988" duration="1581000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1614345458139">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614345458139" />
-    <state width="1493" height="307" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1614307211686" />
-    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1614345458138">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614345458138" />
-    <state width="1493" height="307" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1614307211685" />
-    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1614345458138">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614345458138" />
-    <state width="1493" height="307" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1614307211685" />
-    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1614345458138">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614345458138" />
-    <state width="1493" height="307" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1614307211685" />
-    <state x="279" y="62" key="SettingsEditor" timestamp="1614344123413">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="279" y="62" key="SettingsEditor/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614344123413" />
-    <state x="4189" y="78" key="SettingsEditor/0.0.1536.834/3840.0.1920.1050@3840.0.1920.1050" timestamp="1614306992685" />
-    <state x="534" y="240" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1614343462043">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="534" y="240" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834/3840.0.1920.1050@0.0.1536.834" timestamp="1614343462043" />
   </component>
 </project>
