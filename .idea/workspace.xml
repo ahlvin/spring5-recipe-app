@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2d7e58-ee31-46ee-ba6e-8ea0a572e6d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_3_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_1_11_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/services/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/java/guru/springframework/services/RecipeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring5-recipe-app/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +219,7 @@
       <workItem from="1614305443485" duration="6373000" />
       <workItem from="1614532560494" duration="174000" />
       <workItem from="1614532798371" duration="1476000" />
-      <workItem from="1615770816988" duration="1581000" />
+      <workItem from="1615770816988" duration="5152000" />
     </task>
     <servers />
   </component>
